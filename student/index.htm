@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Student Registration</title>
+<link href="../css/default.css" rel="stylesheet" type="text/css">
+<script src="../js/default.js"></script>
+</head>
+<body>
+<p align="center" style=" margin-top:80">&nbsp;</p>
+<table width="500" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F5f7f7">
+<form name="form" method="post" action="reg.jsp">
+  <tr align="center">
+    <td height="27" colspan="2" bgcolor="#21536A"><div id="reg">Student Registration</div></td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">User Name:</td>
+    <td width="300">
+      <input type="text" name="sname"></td>
+  </tr>
+  <tr>
+    <td height="22" align="center">Password:</td>
+    <td><input type="password" name="password"></td>
+  </tr>
+  <tr>
+    <td height="22" align="center">Confirm Password:</td>
+    <td><input type="password" name="rpassword"></td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Real Name:</td>
+    <td width="300">
+      <input type="text" name="name">
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Age:</td>
+    <td width="300">
+      <input type="text" name="age">
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Gender:</td>
+    <td width="300">
+      <input type="radio" name="sex" value="1" checked>
+      Male
+      <input type="radio" name="sex" value="0">
+      Female
+</td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Birthday:</td>
+    <td width="300">
+      <input type="text" name="birthday">
+     YYYY-MM-DD</td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">School:</td>
+    <td width="300">
+      <input type="text" name="school" >
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Email:</td>
+    <td width="300">
+      <input type="text" name="email">
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Major:</td>
+    <td width="300">
+      <input type="text" name="specialty" >
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Highest Level of Education:</td>
+    <td width="300">
+      <input type="text" name="knowledge" >
+    </td>
+  </tr>
+  <tr>
+    <td width="200" height="22" align="center">Resume:</td>
+    <td width="300">
+      <textarea name="resume" cols="35" rows="5"></textarea>
+</td>
+  </tr>
+  <tr align="center">
+    <td height="35" colspan="2"><input type="submit" name="Submit" value="Register" onClick="return reg()">
+      &nbsp;&nbsp;
+      <input type="reset" name="Reset" value="Reset"></td>
+  </tr>
+</form>
+  <tr>
+    <td  height="22" colspan="2">Registration Instruction:
+    <ul>
+     <p>1.username:special characters are not allowed.</p>
+      <p>2.* are required fields</p>
+    </ul></td>
+  </tr>
+</table>
+</body>
+</html>
